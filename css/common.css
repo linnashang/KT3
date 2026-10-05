@@ -1,0 +1,24 @@
+:root {
+    --background: #080b14;
+    --text: #eef1ff;
+    --muted: #8c96af;
+    --accent: #a4a8ff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: var(--background);
+    color: var(--text);
+    font-family: Arial, sans-serif;
+}
